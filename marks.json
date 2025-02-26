@@ -1,0 +1,102 @@
+        const sportsData = {
+            "sports": [
+                {
+                    "id": "cricket",
+                    "name": "Cricket",
+                    "venue": "Main Ground",
+                    "isLive": true,
+                    "scores": [
+                        { "house": "Gamini", "score": 90 },
+                        { "house": "Tissa", "score": 96 },
+                        { "house": "Parakram", "score": 79 },
+                        { "house": "Vijaya", "score": 97 }
+                    ]
+                },
+                {
+                    "id": "athletics",
+                    "name": "Athletics",
+                    "venue": "Athletics Track",
+                    "isLive": true,
+                    "scores": [
+                        { "house": "Gamini", "score": 95 },
+                        { "house": "Tissa", "score": 88 },
+                        { "house": "Parakram", "score": 95 },
+                        { "house": "Vijaya", "score": 92 }
+                    ]
+                },
+                {
+                    "id": "swimming",
+                    "name": "Swimming",
+                    "venue": "Swimming Pool",
+                    "isLive": false,
+                    "scores": [
+                        { "house": "Gamini", "score": 88 },
+                        { "house": "Tissa", "score": 85 },
+                        { "house": "Parakram", "score": 92 },
+                        { "house": "Vijaya", "score": 79 }
+                    ]
+                },
+                {
+                    "id": "basketball",
+                    "name": "Basketball",
+                    "venue": "Indoor Stadium",
+                    "isLive": true,
+                    "scores": [
+                        { "house": "Gamini", "score": 81 },
+                        { "house": "Tissa", "score": 92 },
+                        { "house": "Parakram", "score": 88 },
+                        { "house": "Vijaya", "score": 100 }
+                    ]
+                },
+                {
+                    "id": "volleyball",
+                    "name": "Volleyball",
+                    "venue": "Outdoor Court",
+                    "isLive": true,
+                    "scores": [
+                        { "house": "Gamini", "score": 97 },
+                        { "house": "Tissa", "score": 92 },
+                        { "house": "Parakram", "score": 88 },
+                        { "house": "Vijaya", "score": 94 }
+                    ]
+                },
+                {
+                    "id": "table-tennis",
+                    "name": "Table Tennis",
+                    "venue": "Indoor Hall",
+                    "isLive": false,
+                    "scores": [
+                        { "house": "Gamini", "score": 87 },
+                        { "house": "Tissa", "score": 91 },
+                        { "house": "Parakram", "score": 89 },
+                        { "house": "Vijaya", "score": 86 }
+                    ]
+                }
+            ]
+        };
+
+        const momentsData = {
+            "moments": [
+                {
+                    "id": "cricket-final",
+                    "title": "Cricket Championship Final",
+                    "description": "Thrilling victory in the last over",
+                    "house": "Gamini",
+                    "image": "cricket.jpg"
+                },
+                {
+                    "id": "swimming-gala",
+                    "title": "Swimming Gala Champions",
+                    "description": "Record-breaking performance",
+                    "house": "Tissa",
+                    "image": "swimming.jpg"
+                },
+                {
+                    "id": "athletics-meet",
+                    "title": "Athletics Meet Highlights",
+                    "description": "New school record in 100m sprint",
+                    "house": "Parakram",
+                    "image": "athletics.jpg"
+                }
+            ]
+        };
